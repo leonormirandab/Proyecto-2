@@ -43,6 +43,7 @@ class Game:
                     self.board.print_board(show_mines=True)
                     break
 
+
             if self.check_win():
                 print("¡Ganaste! No quedan celdas seguras.")
                 self.board.print_board(show_mines=True)
