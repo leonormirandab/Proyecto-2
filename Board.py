@@ -1,6 +1,5 @@
 from Cell import Cell
 import random 
-
 class Board:
     def __init__(self, size=6, mines=6):
         self.size = size

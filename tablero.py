@@ -2,8 +2,8 @@ from Cell import Cell
 from Board import Board
 
 class Game:
-    def __init__(self):
-        self.board = Board()
+    def __init__(self, size = 6, mines = 6):
+        self.board = Board(size, mines)
 
     def play(self):
         while True:
@@ -57,4 +57,4 @@ class Game:
 
 
 if __name__ == "__main__":
-    Game().play()
+    Game(7, 7).play()
